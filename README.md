@@ -2,22 +2,22 @@ Express Photo Application
 =====================
 
 ----------------------------------------------------------------------------
-###Step 00 - Preparation
+##Step 00 - Preparation
 ----------------------------------------------------------------------------
 
-#### Pre requirements
+##### Pre requirements
 * [NodeJS](https://nodejs.org/)
 * [Git](https://git-scm.com/downloads)
 * [SourceTree](https://www.sourcetreeapp.com/)
 * [MongoDB](https://www.mongodb.org/downloads)
 
-#### Tools
+##### Tools
 * Editor: [Cloud 9](https://c9.io/)
 * Sass compiler: [Koala](http://koala-app.com/)
 
-#Preparation
+###Preparation
 
-#### Install global Node packages
+##### Install global Node packages
 
     // install global packages
     npm install -g grunt-cli
@@ -25,13 +25,13 @@ Express Photo Application
     npm install -g express-generator
     npm install -g nodemon
     
-####Create the project skeleton
+#####Create the project skeleton
  
     // Add the -e flag to use the EJS template engine
     express -e photos
     cd photos
 
-#### Install local Node packages
+##### Install local Node packages
 
 	npm install mongoose --save
 	npm install mongodb --save
@@ -39,18 +39,18 @@ Express Photo Application
     npm install ejs --save
     npm install
 
-#### Adding git support
+##### Adding git support
 
  1. Init the local repository `git init`
  2. Create new git repository on github
  2. Follow the instructions and add the git remote to this local repository
  3. Create the .gitignore file to ignore all the ___node_modules___
 
-####Installing MongoDB
+#####Installing MongoDB
  Donload mongoDB and copy the files in the bin folder within
  to wherever you want Mongo to live, and you're done. You've installed Mongo
 
-#Coding
+----------------------------------------------------------------------------
 
 * Test the application
 
@@ -59,3 +59,13 @@ Express Photo Application
 >
 Open Browser in http://127.0.0.1:3000
 You should now see the Welcome page
+
+----------------------------------------------------------------------------
+###Step 01 - Add data & routes
+----------------------------------------------------------------------------
+
+1. Add photos (data) to display
+>   Create new file: **routes/photos.js** and fill in your data
+
+2. Add photos (route)
+>   Create new file: **routes/photos.js** and fill in your data

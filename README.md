@@ -1,6 +1,10 @@
 Express Photo Application
 =====================
 
+----------------------------------------------------------------------------
+###Step 00 - Preparation
+----------------------------------------------------------------------------
+
 #### Pre requirements
 * [NodeJS](https://nodejs.org/)
 * [Git](https://git-scm.com/downloads)
@@ -55,23 +59,3 @@ Express Photo Application
 >
 Open Browser in http://127.0.0.1:3000
 You should now see the Welcome page
-
-#### Add photos (data) to display
-Create new file: **routes/photos.js** and fill in your data
-
-#### Add photos (route + view)
-* Edit **routes/photos.js** and add a list function to list (display) the images
-* Create new file **views/photos.ejs** which will be served as our HTML page to display the images
-* Edit **app.js** and add the photos as required module
-* Edit **app.js** and set the photos list as our default view
-* restart the node server and reload the page
-
-####Add the file upload form & data model
-* Create file models/Photo.js
-* Creating a photo upload form (views/photos/upload.ejs)
-* Add the new routes to app.js
-* Add the upload form (views/photos/upload.ejs)
-* Adding photo submit route definition
-* Add photo upload destination settings (app.js)
-* Showing a list of uploaded photos (Modified list route)
-* Modified view to use settings for photos path
